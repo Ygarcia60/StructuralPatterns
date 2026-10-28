@@ -10,6 +10,6 @@ public class BitcoinPayment extends PaymentNotification{
 
     @Override
     public void notifyPayment() {
-        chanel.send("Your Bitcoin Payment was successful");
+        chanel.send("Your Bitcoin payment was successful");
     }
 }
